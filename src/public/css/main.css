@@ -1,8 +1,7 @@
 html,
 body {
-  background-color: #211f2b;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #211F2B;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -37,7 +36,7 @@ form {
   width: 100px;
   height: 3px;
   margin: 20px auto;
-  background-color: #617bff;
+  background-color: #617BFF;
 }
 
 input,
@@ -51,7 +50,7 @@ textarea {
   background-color: white;
   padding: 10px 20px;
   width: 100%;
-  color: #1e1c29;
+  color: #1E1C29;
   margin-bottom: 20px;
   box-sizing: border-box;
   transition: all 0.2s;
@@ -60,7 +59,7 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border: 2px #617bff solid;
+  border: 2px #617BFF solid;
 }
 
 .container {
@@ -77,8 +76,8 @@ input[name="amount"] {
   font-weight: 600;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -91,109 +90,42 @@ input[type="number"]::-webkit-outer-spin-button {
   cursor: pointer;
   font-size: 20px;
   font-weight: 600;
-  border: 2px #524C6D solid;
+  border: 2px #617BFF solid;
   color: white;
-  background-color: #524C6D;
+  background-color: #617BFF;
   padding: 15px;
   transition: all 0.2s;
 }
 
 #btn-send:hover {
-  border: 2px #8095ff solid;
-  background-color: #8095ff;
+  border: 2px #8095FF solid;
+  background-color: #8095FF;
 }
 
-#btn-check {
-  display: block;
-  text-decoration: none;
-  border-radius: 7px;
-  margin-bottom: 10px;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: 600;
-  border: 2px #524C6D solid;
-  color: white;
-  background-color: #524C6D;
-  padding: 15px;
-  transition: all 0.2s;
-}
-
-#btn-check:hover {
-  border: 2px #8095ff solid;
-  background-color: #8095ff;
-}
-
-#btn-about {
-  display: block;
-  text-decoration: none;
-  border-radius: 7px;
-  margin-bottom: 10px;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: 600;
-  border: 2px #524C6D solid;
-  color: white;
-  background-color: #524C6D;
-  padding: 15px;
-  transition: all 0.2s;
-}
-
-#btn-about:hover {
-  border: 2px #8095ff solid;
-  background-color: #8095ff;
-}
+#connect-web3 {
+    display: block;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px #617BFF solid;
+    color: white;
+    background-color: #617BFF;
+    padding: 15px;
+    transition: all 0.2s;
+  }
+  
+  #connect-web3:hover {
+    border: 2px #8095FF solid;
+    background-color: #8095FF;
+  }
 
 textarea[name="address"] {
   resize: none;
   font-size: 16px;
   font-weight: 600;
   padding: 10px 2.7rem;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
-    monospace;
-}
-
-
-.amountRadios {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 1rem 0 2rem 0;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
-}
-
-.amountRad {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.radioButton {
-  margin: 0 4px 8px 0;
-  width: 1rem;
-  height: 1rem;
-}
-
-.header {
-  width: 100%;
-  background-color: #524C6D;
-  height: 3rem;
-  margin: 0 0 1rem 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: rgba(255, 255, 255, 0.6);
-  border-radius: 4px;
-}
-
-.navComp {
-  cursor: pointer;
-}
-
-.navComp:hover {
-  color: rgba(255, 255, 255, 1);
-}
-
-.navComp:last-child {
-  border-right: none;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
