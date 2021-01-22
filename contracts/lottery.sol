@@ -53,7 +53,7 @@ contract Lottery {
         }
         if (winnerIndices.length > 0){
             uint winnersCount = winnerIndices.length;
-            uint balance = address(this).balance - 1;
+            uint balance = address(this).balance - 1000000000000000000;
             uint winnerShare = balance/winnersCount;
         for (uint i = 0; i < winnersCount ; i++) {
             winnerIndices[i].transfer(winnerShare);
@@ -86,6 +86,6 @@ contract Lottery {
     
     function withdrawAdminFees() public onlyOwner {
         require (gameStatus == false);
-        owner.transfer(address(this).balance - 1);
+        owner.transfer(address(this).balance - 1000000000000000000);
     }
 }
