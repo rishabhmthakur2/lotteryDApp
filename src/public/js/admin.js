@@ -123,7 +123,7 @@ let initContract = async () => {
           type: 'function',
         },
       ],
-      '0x33Ec3FCC11fFab3a0bA9346551Bb42F57bDD45ad',
+      '0xe45ed8B45a88Be8A45908B99714DF7497395114A',
     )
     console.log({ lotterySM })
     let data = lotterySM.methods
